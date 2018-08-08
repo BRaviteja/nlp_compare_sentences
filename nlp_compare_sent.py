@@ -1,3 +1,4 @@
+from nltk.corpus import wordnet as wn
 from os.path import expanduser
 home = expanduser("~")
 from nltk.tag.stanford import StanfordPOSTagger as POS_Tag
